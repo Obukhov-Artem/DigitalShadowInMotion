@@ -50,4 +50,4 @@ while (run):
             _socket.send(bytes(str(send)[1:-2].replace(",", "") + '\n', 'ascii'))
             index += step
     except:
-        print("Соединение прерванно")
+        print("Соединение прервано")
